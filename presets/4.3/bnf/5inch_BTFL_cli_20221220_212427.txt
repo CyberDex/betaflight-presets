@@ -5,6 +5,8 @@
 #$ KEYWORDS: Digital osd
 #$ AUTHOR: DexFPV
 
+#$ DESCRIPTION: DexFPV
+
 batch start
 
 defaults nosave

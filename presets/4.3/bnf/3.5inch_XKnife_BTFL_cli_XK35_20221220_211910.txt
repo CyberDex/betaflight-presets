@@ -5,14 +5,11 @@
 #$ KEYWORDS: Digital osd
 #$ AUTHOR: DexFPV
 
+#$ DESCRIPTION: DexFPV
+
 batch start
 
 defaults nosave
-
-board_name BETAFLIGHTF4
-manufacturer_id FPVM
-mcu_id 003800493152501720333647
-signature 
 
 feature -RX_PARALLEL_PWM
 feature RX_SERIAL
