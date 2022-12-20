@@ -1,6 +1,7 @@
 #$ TITLE: DexFPV - 5 inch
 #$ FIRMWARE_VERSION: 4.3
 #$ STATUS: COMMUNITY
+#$ CATEGORY: bnf
 #$ KEYWORDS: Digital osd
 #$ AUTHOR: DexFPV
 
