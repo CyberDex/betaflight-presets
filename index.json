@@ -192,7 +192,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/3.5inch_XKnife_BTFL_cli_XK35_20221220_211910.txt",
-      "hash": "4beefbe0eb87899beb1d40e2b1eb4e4c4e0e5bf7c03878b07f00bda9d954da3f",
+      "hash": "013bfbddf4aa8662c2b3c1f266304d0996b8f05e94a9a14df0b07bd03d7254c3",
       "title": "DexFPV - 3.5 inch",
       "firmware_version": [
         "4.3"
