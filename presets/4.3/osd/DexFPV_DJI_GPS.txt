@@ -1,3 +1,12 @@
+#$ TITLE: DexFPV - DJI
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Digital osd
+#$ AUTHOR: DexFPV
+
+#$ PARSER: MARKED
+
 set osd_warn_core_temp = OFF
 set osd_warn_rc_smoothing = OFF
 set osd_warn_fail_safe = OFF
