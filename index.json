@@ -168,6 +168,7 @@
       "Digital osd",
       "displayport",
       "DJI",
+      "DJI OSD",
       "filter",
       "filters",
       "fpv.wtf",
@@ -257,7 +258,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/DexFPV_DJI_GPS.txt",
-      "hash": "d6e7a928e67c15af7b70d19570ef2e07eed38efb6ecaecc750ecd03cb5600690",
+      "hash": "a77e3e5e6fa47ca22e4828cf33add11509c335bb01a3d21b3ba3e9437bf7b3fe",
       "title": "DexFPV - DJI",
       "firmware_version": [
         "4.3"
@@ -265,7 +266,7 @@
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "Digital osd"
+        "DJI OSD"
       ],
       "author": "DexFPV",
       "priority": 0
