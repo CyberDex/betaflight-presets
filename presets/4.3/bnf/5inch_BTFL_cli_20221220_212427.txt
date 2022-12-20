@@ -5,8 +5,6 @@
 #$ KEYWORDS: Digital osd
 #$ AUTHOR: DexFPV
 
-#$ PARSER: MARKED
-
 batch start
 
 # reset configuration to default settings
