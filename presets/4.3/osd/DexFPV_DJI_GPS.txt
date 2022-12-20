@@ -5,8 +5,6 @@
 #$ KEYWORDS: DJI OSD
 #$ AUTHOR: DexFPV
 
-#$ PARSER: MARKED
-
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_warn_core_temp = OFF

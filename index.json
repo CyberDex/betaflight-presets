@@ -207,7 +207,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/5inch_BTFL_cli_20221220_212427.txt",
-      "hash": "4f869f3e2e9f3b504e572db07d97000ae037c9e90c40a345fc0c624329e0ee5d",
+      "hash": "be3d96d04f7942e24717a6f2369fa62ae7bef90e23e8b6dbc11e81dabd0852e5",
       "title": "DexFPV - 5 inch",
       "firmware_version": [
         "4.3"
@@ -258,7 +258,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/DexFPV_DJI_GPS.txt",
-      "hash": "a77e3e5e6fa47ca22e4828cf33add11509c335bb01a3d21b3ba3e9437bf7b3fe",
+      "hash": "9a70e550188e1655c68b980e5f18a71036d3dc416d4089b5203bd570aca837bf",
       "title": "DexFPV - DJI",
       "firmware_version": [
         "4.3"
