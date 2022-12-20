@@ -1,0 +1,152 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F405 (S405) 4.3.1 Jul 13 2022 / 03:32:11 (8d4f005) MSP API: 1.44
+# config: manufacturer_id: FPVM, board_name: BETAFLIGHTF4, version: 9d0a4b63, date: 2022-10-12T09:07:03Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name BETAFLIGHTF4
+manufacturer_id FPVM
+mcu_id 003800493152501720333647
+signature 
+
+# name: XK35
+
+# feature
+feature -RX_PARALLEL_PWM
+feature RX_SERIAL
+feature SOFTSERIAL
+feature GPS
+feature TELEMETRY
+
+# serial
+serial 1 64 115200 57600 0 115200
+serial 2 1 115200 57600 0 115200
+serial 5 2 115200 115200 0 115200
+
+# beeper
+beeper -ON_USB
+
+# map
+map TAER1234
+
+# aux
+aux 0 0 3 1700 2100 0 0
+aux 1 1 1 1700 2100 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 46 0 1700 2100 0 0
+aux 4 13 0 1700 2100 0 0
+aux 5 35 0 1700 2100 0 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set gyro_lpf1_dyn_min_hz = 0
+set acc_calibration = -31,24,-14,1
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = CRSF
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set failsafe_procedure = GPS-RESCUE
+set current_meter = ADC
+set battery_meter = ADC
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_initial_alt = 60
+set gps_rescue_min_sats = 6
+set gps_rescue_min_dth = 50
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_alt_mode = FIXED_ALT
+set osd_warn_core_temp = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_fail_safe = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_cap_alarm = 16960
+set osd_alt_alarm = 10000
+set osd_vbat_pos = 2497
+set osd_rssi_pos = 449
+set osd_link_quality_pos = 2080
+set osd_rssi_dbm_pos = 0
+set osd_tim_1_pos = 455
+set osd_tim_2_pos = 2480
+set osd_flymode_pos = 2509
+set osd_throttle_pos = 2073
+set osd_crosshairs_pos = 2285
+set osd_current_pos = 2464
+set osd_craft_name_pos = 395
+set osd_gps_speed_pos = 2067
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2094
+set osd_home_dist_pos = 2062
+set osd_flight_dist_pos = 2105
+set osd_altitude_pos = 18440
+set osd_warnings_pos = 2441
+set osd_avg_cell_voltage_pos = 2472
+set osd_disarmed_pos = 2347
+set osd_displayport_device = MSP
+set displayport_msp_serial = 2
+set name = XK35
+
+profile 0
+
+# profile 0
+set i_pitch = 92
+set d_pitch = 33
+set p_roll = 44
+set i_roll = 90
+set d_roll = 31
+set d_min_roll = 0
+set d_min_pitch = 0
+set simplified_pids_mode = OFF
+
+profile 1
+
+profile 2
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 5
+set pitch_rc_rate = 5
+set yaw_rc_rate = 10
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 20
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 56
+set tpa_rate = 70
+set tpa_breakpoint = 1400
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 

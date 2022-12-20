@@ -1,0 +1,131 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32F405 (S405) 4.3.2 Nov 28 2022 / 07:26:30 (60c9521) MSP API: 1.44
+# config: manufacturer_id: SPBE, board_name: SPEEDYBEEF405V3, version: a1066f52, date: 2022-11-15T14:13:48Z
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name SPEEDYBEEF405V3
+manufacturer_id SPBE
+mcu_id 004d004b4843500c20303635
+signature 
+
+# feature
+feature -RX_PARALLEL_PWM
+feature GPS
+feature LED_STRIP
+
+# serial
+serial 2 1 115200 57600 0 115200
+serial 3 0 115200 57600 0 115200
+serial 5 2 115200 57600 0 115200
+
+# beeper
+beeper -ON_USB
+
+# map
+map TAER1234
+
+# led
+led 0 0,0::CO:2
+led 1 1,0::CO:2
+led 2 2,0::CO:2
+led 3 3,0::CO:2
+
+# mode_color
+mode_color 6 0 5
+mode_color 6 1 2
+
+# aux
+aux 0 0 3 1700 2100 0 0
+aux 1 1 1 900 1300 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 27 0 1700 2100 0 0
+aux 4 13 0 1700 2100 0 0
+aux 5 35 0 1700 2100 0 0
+aux 6 37 5 1700 2100 0 0
+aux 7 52 4 1700 2100 0 0
+
+# master
+set acc_calibration = -6,47,-8,1
+set mag_hardware = NONE
+set serialrx_provider = CRSF
+set motor_pwm_protocol = DSHOT600
+set failsafe_procedure = GPS-RESCUE
+set vbat_min_cell_voltage = 250
+set vbat_warning_cell_voltage = 380
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_angle = 42
+set gps_rescue_min_sats = 7
+set gps_rescue_min_dth = 50
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_alt_mode = FIXED_ALT
+set osd_warn_core_temp = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_fail_safe = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_cap_alarm = 16960
+set osd_alt_alarm = 10000
+set osd_vbat_pos = 2497
+set osd_rssi_pos = 449
+set osd_link_quality_pos = 2080
+set osd_rssi_dbm_pos = 0
+set osd_tim_1_pos = 455
+set osd_tim_2_pos = 2480
+set osd_flymode_pos = 2509
+set osd_throttle_pos = 2073
+set osd_crosshairs_pos = 2285
+set osd_current_pos = 2464
+set osd_mah_drawn_pos = 2483
+set osd_craft_name_pos = 395
+set osd_gps_speed_pos = 2067
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2094
+set osd_home_dist_pos = 2062
+set osd_flight_dist_pos = 2105
+set osd_altitude_pos = 18440
+set osd_warnings_pos = 2441
+set osd_avg_cell_voltage_pos = 2472
+set osd_disarmed_pos = 2347
+set osd_displayport_device = MSP
+set displayport_msp_serial = 2
+
+profile 0
+
+profile 1
+
+profile 2
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
