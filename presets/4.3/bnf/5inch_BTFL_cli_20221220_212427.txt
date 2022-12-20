@@ -1,12 +1,11 @@
-# 
+#$ TITLE: DexFPV - 5 inch
+#$ FIRMWARE_VERSION: 4.3
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Digital osd
+#$ AUTHOR: DexFPV
 
-# diff all
+#$ PARSER: MARKED
 
-# version
-# Betaflight / STM32F405 (S405) 4.3.2 Nov 28 2022 / 07:26:30 (60c9521) MSP API: 1.44
-# config: manufacturer_id: SPBE, board_name: SPEEDYBEEF405V3, version: a1066f52, date: 2022-11-15T14:13:48Z
-
-# start the command batch
 batch start
 
 # reset configuration to default settings

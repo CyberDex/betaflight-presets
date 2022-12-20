@@ -1,12 +1,11 @@
-# 
+#$ TITLE: DexFPV - 3.5 inch
+#$ FIRMWARE_VERSION: 4.3
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Digital osd
+#$ AUTHOR: DexFPV
 
-# diff all
+#$ PARSER: MARKED
 
-# version
-# Betaflight / STM32F405 (S405) 4.3.1 Jul 13 2022 / 03:32:11 (8d4f005) MSP API: 1.44
-# config: manufacturer_id: FPVM, board_name: BETAFLIGHTF4, version: 9d0a4b63, date: 2022-10-12T09:07:03Z
-
-# start the command batch
 batch start
 
 # reset configuration to default settings
