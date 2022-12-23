@@ -206,8 +206,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/bnf/5inch_BTFL_cli.txt",
+      "hash": "951d918815fbc927138ec597815f1b13ec6cfd7ff85f1d14d4e378fb963e8266",
+      "title": "DexFPV - 5 inch last",
+      "firmware_version": [
+        "4.3"
+      ],
+      "status": "COMMUNITY",
+      "category": "BNF",
+      "keywords": [
+        "Digital osd"
+      ],
+      "author": "DexFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/bnf/5inch_BTFL_cli_20221220_212427.txt",
-      "hash": "b995b447f498936990091acabc441bbee6cf600eb39447541922b7a8eb2a6b5b",
+      "hash": "6f3d106fa62e7f1cdcbf02a2eb9ff25c07445ce56ac0fca2c625a56fd527fa1f",
       "title": "DexFPV - 5 inch",
       "firmware_version": [
         "4.3"
@@ -258,7 +273,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/DexFPV_DJI_GPS.txt",
-      "hash": "9a70e550188e1655c68b980e5f18a71036d3dc416d4089b5203bd570aca837bf",
+      "hash": "c83298ef14fd1c0997dcf3348dfd7ca9c3dc7eca5a0c22f802156eb8a8ce3de5",
       "title": "DexFPV - DJI",
       "firmware_version": [
         "4.3"
